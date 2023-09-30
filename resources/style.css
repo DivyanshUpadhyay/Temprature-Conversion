@@ -1,0 +1,91 @@
+#container>div
+{
+                padding: 10px 20px;
+                margin-top: 100px;
+               height: 400px;
+               width: 400px;
+                display: inline-block;
+                position: relative;
+                border: black solid 2px;
+                border-radius: 10%;
+}
+#container {
+   
+    font-size: 20px;
+    text-align: center; /* Center align the boxes */
+}
+#color1
+{
+    background-color: rgb(248, 185, 10);
+}
+#color2
+{
+    background-color: red;
+}
+#color3
+{
+    background-color: royalblue;
+}
+#color1:hover
+{
+    transition: 1s;
+    background-color:rgba(248, 185, 10, 0.685);
+}
+#color2:hover
+{
+    transition: 1s;
+    background-color: rgba(255, 0, 0, 0.548);
+}
+#color3:hover
+{
+    transition: 1s;
+    background-color: rgba(65, 105, 225, 0.603);
+}
+.box {
+    display: inline-block; /* Display boxes in one line */
+    width: 150px; /* Set a fixed width for each box */
+    margin: 10px; /* Add some spacing between boxes */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+.box input{
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(7, 7, 7); /* Set link text color */
+    font-weight: bold;
+    display: block;
+    margin-top: 105px;
+    position: relative;
+    padding: 10px;
+    border: none;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Style for the input boxes */
+.input-box {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background: none;
+    color: white;
+    border-radius: 5px;
+}
+
+input::placeholder
+{
+  color: white;
+}
+/* Hide initially */
+.hidden {
+    display: none;
+}
+
+/* Style for the toggle buttons */
+.toggle-button {
+    margin-bottom: 10px;
+}
